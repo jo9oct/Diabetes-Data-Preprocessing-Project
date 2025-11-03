@@ -1,0 +1,90 @@
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pycache/
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# =========================
+# Data Files
+# =========================
+# Raw data should usually be tracked
+data/raw/*
+!data/raw/.gitkeep  # keep folder in git
+# Interim or cleaned data often should NOT be tracked
+data/interim/
+data/cleaned/
+*.csv
+*.xlsx
+*.xls
+*.json
+*.parquet
+*.feather
+*.ods
+
+# =========================
+# OS files
+# =========================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# =========================
+# IDE / Editor
+# =========================
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+
+# =========================
+# Logs and temp files
+# =========================
+*.log
+*.tmp
+*.bak
+*.swp
+
+# =========================
+# Python packaging
+# =========================
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# =========================
+# Environment files
+# =========================
+.env
+.env.*.local
+
+# =========================
+# Jupyter checkpoints / temp
+# =========================
+.ipynb_checkpoints/
+*.nbconvert.ipynb
