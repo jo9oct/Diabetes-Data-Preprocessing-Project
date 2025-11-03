@@ -23,6 +23,8 @@ env/
 # =========================
 # Data Files
 # =========================
+# Track raw data
+!data/raw/
 # Raw data should usually be tracked
 data/raw/*
 !data/raw/.gitkeep  # keep folder in git
