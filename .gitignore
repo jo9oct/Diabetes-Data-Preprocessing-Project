@@ -1,4 +1,3 @@
-
 # =========================
 # Python
 # =========================
@@ -23,14 +22,13 @@ env/
 # =========================
 # Data Files
 # =========================
-# Track raw data
+# Track all raw data
 !data/raw/
-# Raw data should usually be tracked
-data/raw/*
-!data/raw/.gitkeep  # keep folder in git
-# Interim or cleaned data often should NOT be tracked
+# Ignore interim and cleaned data
 data/interim/
 data/cleaned/
+
+# Optional: ignore large data files globally
 *.csv
 *.xlsx
 *.xls
@@ -55,11 +53,8 @@ Desktop.ini
 # =========================
 # IDE / Editor
 # =========================
-# VS Code
 .vscode/
 *.code-workspace
-
-# PyCharm
 .idea/
 
 # =========================
