@@ -27,16 +27,7 @@ env/
 # Ignore interim and cleaned data
 data/interim/
 data/cleaned/
-
-# Optional: ignore large data files globally
-*.csv
-*.xlsx
-*.xls
-*.json
-*.parquet
-*.feather
-*.ods
-
+data/processed/
 # =========================
 # OS files
 # =========================
